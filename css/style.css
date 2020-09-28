@@ -1,0 +1,192 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 80px;
+}
+
+h5{
+    margin-bottom: 0px;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    line-height: 1.9;
+    margin-bottom: 0;
+}
+
+.pcol p{
+    color: black;
+}
+
+.a-o{
+    background-color: orangered;
+}
+
+.s-v{
+    background-color: yellowgreen;
+}
+
+.p-b{
+    background-color: burlywood;
+}
+
+.n-g{
+    background-color: gray;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a i{
+    font-size: 22px; color: white;
+}
+
+.topmargin-mx{
+    margin-top: 15px;
+}
+.topmargin-sm{
+    margin-top: 30px;
+}
+.topmargin-lg{
+    margin-top: 60px;
+}
+
+.navbar{
+    background-color: black;
+    box-shadow: 0 2px 4px 0 rgba(255, 0, 0, 0.05);
+    min-height: 75px;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+.nav-link:hover{
+    color: whitesmoke;
+}
+
+.logo-brand{
+    min-width: 45px;
+    max-width: 65px;
+}
+
+.navbar-toggler{
+    font-size: 40px;
+    color: white;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+
+#portada {
+    background-image: url("../img/portada.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding-top: 90px;
+    min-height: 750px;
+    color: white;
+}
+
+.content-center{
+    max-width: 800px;
+    margin: 110px auto 60px auto;
+    text-align: center;
+}
+
+.btn{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 25px 46px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+} 
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn-light{
+    background-color: green;
+}
+
+.recetas-conteiner{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.recetas-conteiner2{
+    overflow: hidden;
+}
+
+.recetas-conteiner img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.recetas-conteiner:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.recetas-details{
+    position: absolute;
+    bottom: 25px;
+    left: 60px;
+    z-index: 9000;
+}
+
+.recetas-details a h2{
+    color: black;
+}
+
+
+.member-container{
+    position: relative;
+    margin: 10px 0;
+}
+
+.member-details{
+    position: absolute;
+    color: white;
+    bottom: 0px;
+    left: 20px;
+}
+
+.member-details samp{
+    font-size: 14px;
+}
+
+.member-details i{
+    padding: 0 5px;
+}
+
+.tam{
+    height: 200px;
+    width: 540px;
+}
+
+
+@media (max-width: 575.98px) { 
+    h1{font-size: 40px; line-height: normal;}
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+@media (min-width: 1200px) { ... }
